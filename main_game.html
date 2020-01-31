@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main_game-style.css">
+    <title>PLAY!</title>
+</head>
+<body>
+    <a href="index.html"><img src="logo-kuis-kalimat.png" alt="logo"></a>
+    <div class="wrapper">
+        <div class="box counter">
+            <h3 id="total_quest"></h3>
+        </div>
+        <div class="box score">
+            <h2 id="skor">SKOR ANDA:</h2>
+            <h2 id="score_value">0</h2>
+        </div>
+        <div class="box timer">
+            <h3 id="timer_count">45</h3>
+        </div>
+        <div class="box question">
+            <h2 id="question_"></h2>
+        </div>
+        <div class="box answer_box">
+            <form id="submit_answer" autocomplete="off">
+                <input type="text" id="textbox" placeholder="Tulis Jawaban Disini" required>
+                <button id="submit_button">GO!</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="game-script.js"></script>
+</body>
+</html>

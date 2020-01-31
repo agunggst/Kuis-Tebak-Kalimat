@@ -1,0 +1,53 @@
+body{
+    background-color: #333333;
+}
+
+*{
+    box-sizing: border-box;
+    color: #c1c1c1;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+img{
+    max-width: 800px;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.btn{
+    max-width: 154px;
+}
+
+.button{
+    background-color: #edf100;
+    color: #333333;
+    border-radius: 3px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: #c1c1c1;
+}
