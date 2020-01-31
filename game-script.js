@@ -28,6 +28,9 @@ const answerKey = [
     " "
 ]
 
+var audio = new Audio("tetris_NES.mp3")
+audio.play()
+
 var total_quest = 5
 var score = 0
 const questionTime = 45
