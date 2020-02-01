@@ -27,6 +27,7 @@ img{
     justify-content: center;
     flex-wrap: wrap;
     font-size: 25px;
+    min-width: 500px;
 }
 
 .btn{
