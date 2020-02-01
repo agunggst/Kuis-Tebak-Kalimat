@@ -101,6 +101,7 @@ h2{
 #submit_answer{
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
 #submit_answer input{
@@ -115,6 +116,7 @@ h2{
     float: left;
     height: 75px;
     color: #333333;
+    flex-grow: 1;
 }
 #submit_answer button{
     border: 1px solid #edf100;
